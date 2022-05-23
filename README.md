@@ -6,8 +6,9 @@ You can use and contribute to the improvement of the functions.
 **Next Phase of this repository**
 
 I am going to work on Firmware Update Over-the-Air **(OTA)**
-Best
+
 **---------------------------------------------------------------**
+
 **Bootloaders**
 
 A boot loader is a critical piece of software running on any system. Whenever a computing system is initially powered on, the first piece of code to be loaded and run is the boot loader. It provides an interface for the user to load an operating system and applications.
