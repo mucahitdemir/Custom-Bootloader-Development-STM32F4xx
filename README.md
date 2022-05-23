@@ -21,6 +21,6 @@ critical to check for learning _code size and function size _sepately.
 <img width="597" alt="image" src="https://user-images.githubusercontent.com/43001724/169756637-6648494f-6481-49cc-82ef-bcae57d05566.png">
 
 
-It is also recommended to cover Advanced Debug Features for STM32 CubeIDE
+It is also recommended to cover **Advanced Debug Features for STM32 CubeIDE** Video series
 
 Link: https://www.youtube.com/watch?v=4wT9NhlcWP4&list=PL7tUZeMaichqrlJN4PGu3-n6DbYrvoG-s&index=1
