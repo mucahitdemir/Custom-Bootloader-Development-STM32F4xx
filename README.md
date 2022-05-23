@@ -2,6 +2,9 @@
 Hello! 
 In this repository, custom bootloader development functions were tested.
 You can use and contribute to the improvement of the functions.
+
+**Next Phase of this repository**
+I am going to work on Firmware Update Over-the-Air **(OTA)**
 Best
 
 **Bootloaders**
