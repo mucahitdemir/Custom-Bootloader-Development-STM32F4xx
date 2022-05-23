@@ -10,6 +10,8 @@ I am going to work on Firmware Update Over-the-Air **(OTA)**
 "It requires twice the brain power to debug a piece of code than to write it”
 
 _Brian Kernighan, The Elements Of Programming Style_
+
+
 **Bootloaders**
 
 A boot loader is a critical piece of software running on any system. Whenever a computing system is initially powered on, the first piece of code to be loaded and run is the boot loader. It provides an interface for the user to load an operating system and applications.
