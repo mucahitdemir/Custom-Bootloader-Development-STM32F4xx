@@ -29,3 +29,5 @@ critical to check for learning _code size and function size _sepately.
 It is also recommended to cover **Advanced Debug Features for STM32 CubeIDE** Video series
 
 Link: https://www.youtube.com/watch?v=4wT9NhlcWP4&list=PL7tUZeMaichqrlJN4PGu3-n6DbYrvoG-s&index=1
+
+Bootloader basics: https://embetronicx.com/tutorials/microcontrollers/stm32/bootloader/bootloader-basics/
