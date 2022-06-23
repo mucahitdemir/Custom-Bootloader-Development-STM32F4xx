@@ -20,8 +20,6 @@ A bootloaders is used as a separate program in the program memory that executes 
 The bootloader will use a serial port, USB port, or some other means to load the application. 
 Frequently a bootloader will always execute on restart to check if a new program is to be loaded or if the application is to be run.
 
-![image](https://user-images.githubusercontent.com/43001724/175314646-953dfca5-7753-4a98-9543-8515f4c4b9e2.png)
-
 Since storage capacity important for any restrained-source microcontroller, looking at **Build Analyzer & Static Stack Analyzer** is 
 critical to check for learning _code size and function size _sepately.
 
