@@ -25,6 +25,16 @@ critical to check for learning _code size and function size _sepately.
 
 <img width="597" alt="image" src="https://user-images.githubusercontent.com/43001724/169756637-6648494f-6481-49cc-82ef-bcae57d05566.png">
 
+### Embedded System/Software Security
+
+Today, most of the developers think that security of an embedded system should be handled at the systems-engineering level or by the hardware that surrounds their software. And indeed many things can be done at those levels, including:
+
+•    Secure network communication protocols.
+•    Firewalls.
+•    Data encryption.
+•    Authentication of data sources.
+•    Hardware-assisted control-flow monitoring.
+
 
 It is also recommended to cover **Advanced Debug Features for STM32 CubeIDE** Video series
 
