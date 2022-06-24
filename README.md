@@ -30,10 +30,15 @@ critical to check for learning _code size and function size _sepately.
 Today, most of the developers think that security of an embedded system should be handled at the systems-engineering level or by the hardware that surrounds their software. And indeed many things can be done at those levels, including:
 
 •    Secure network communication protocols.
+
 •    Firewalls.
+
 •    Data encryption.
+
 •    Authentication of data sources.
+
 •    Hardware-assisted control-flow monitoring.
+
 
 
 It is also recommended to cover **Advanced Debug Features for STM32 CubeIDE** Video series
