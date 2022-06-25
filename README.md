@@ -59,6 +59,7 @@ Design each chunk under the assumption that other software chunks with which it 
 
 Do not trust the results of interacting chunks. Do not expose your data to other chunks via shared memory. Use orderly inter-process communication mechanisms instead, like operating system message queues, sockets, or TIPC (Transparent Inter-process Communication). Check the content you receive. As a result of mutually untrusting chunking, your entire system will not be given into the hands of an attacker if any one of its chunks has been compromised.
 *Chunk: A part of something, especially a large part.
+
 **Mindframe #2: Privilege separation**
 
 Keep to a minimum the part of your code that executes with special privilege.
@@ -72,3 +73,12 @@ It is also recommended to cover **Advanced Debug Features for STM32 CubeIDE** Vi
 Link: https://www.youtube.com/watch?v=4wT9NhlcWP4&list=PL7tUZeMaichqrlJN4PGu3-n6DbYrvoG-s&index=1
 
 Bootloader basics: https://embetronicx.com/tutorials/microcontrollers/stm32/bootloader/bootloader-basics/
+
+
+**References**
+
+Daily Telegraph newspaper London UK, “Schoolboy hacks into city's tram system.” The city: Lodz, Poland. The date: 11 Jan. 2008.
+
+Dougherty, C., K. Sayre, R.C. Seacord, D. Svoboda, and K. Togashi. “Secure Design Patterns,” CERT Program, Software Engineering Institute, Carnegie Mellon University, Pittsburgh PA, Technical Report CMU/SEI-2009-TR-101, ESC-TR-2009-010.
+
+CWE's “Common Weakness Enumeration,” The MITRE Corporation, Bedford MA, cwe.mitre.org.
