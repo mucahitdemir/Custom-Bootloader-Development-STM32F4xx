@@ -38,6 +38,7 @@ Today, most of the developers think that security of an embedded system should b
 •    Authentication of data sources.
 
 •    Hardware-assisted control-flow monitoring.
+
 Don't forget that our attackers have a big advantage when it comes to embedded systems: Most embedded software has severe execution time constraints, often a mixture of hard real-time and soft real-time tasks. This coaxes us to design application software that is “lean and mean,” by reducing to a minimum intensive run-time limit checking and reasonableness checking (for example, invariant assertions) in order to meet timing requirements. Our attackers have no such execution time constraints: They are perfectly happy to spend perhaps weeks or months researching, preparing, and running their attacks–possibly trying the same attack millions of times in the hope that one of those times it might succeed, or possibly trying a different attack each day until one hits an open “attack window.”
 
 **How can attackers attack via our own software?**
@@ -57,7 +58,7 @@ Separate the functionality of your software into mutually untrusting chunks , so
 Design each chunk under the assumption that other software chunks with which it interacts have been attacked, and it is attacker software rather than normal application software that is running in those interacting chunks. 
 
 Do not trust the results of interacting chunks. Do not expose your data to other chunks via shared memory. Use orderly inter-process communication mechanisms instead, like operating system message queues, sockets, or TIPC (Transparent Inter-process Communication). Check the content you receive. As a result of mutually untrusting chunking, your entire system will not be given into the hands of an attacker if any one of its chunks has been compromised.
-
+*Chunk: A part of something, especially a large part.
 **Mindframe #2: Privilege separation**
 
 Keep to a minimum the part of your code that executes with special privilege.
