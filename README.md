@@ -21,7 +21,7 @@ The bootloader will use a serial port, USB port, or some other means to load the
 Frequently a bootloader will always execute on restart to check if a new program is to be loaded or if the application is to be run.
 
 Since storage capacity important for any restrained-source microcontroller, looking at **Build Analyzer & Static Stack Analyzer** is 
-critical to check for learning _code size and function size _sepately.
+critical to check for learning code size and function size sepately.
 
 <img width="597" alt="image" src="https://user-images.githubusercontent.com/43001724/169756637-6648494f-6481-49cc-82ef-bcae57d05566.png">
 
