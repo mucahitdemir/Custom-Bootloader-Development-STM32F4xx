@@ -51,7 +51,7 @@ Can you think of an easier way for an attacker to develop an attack on your curr
 What's a software developer to do?
 During embedded systems software design, you can enhance software security by keeping several fundamental ideas in mind:2
 
-**Mindframe #1: Distrustful decomposition**
+**Mindframe 1: Distrustful decomposition**
 
 Separate the functionality of your software into mutually untrusting chunks , so as to shrink the attack windows into each chunk. (In embedded software, we sometimes call these chunks processes or subsystems or CSCIs.)
 
@@ -60,7 +60,7 @@ Design each chunk under the assumption that other software chunks with which it 
 Do not trust the results of interacting chunks. Do not expose your data to other chunks via shared memory. Use orderly inter-process communication mechanisms instead, like operating system message queues, sockets, or TIPC (Transparent Inter-process Communication). Check the content you receive. As a result of mutually untrusting chunking, your entire system will not be given into the hands of an attacker if any one of its chunks has been compromised.
 *Chunk: A part of something, especially a large part.
 
-**Mindframe #2: Privilege separation**
+**Mindframe 2: Privilege separation**
 
 Keep to a minimum the part of your code that executes with special privilege.
 Think about it for a moment: If an attacker succeeds in breaking into software that's running at a high level of privilege, immediately your attacker will be operating at a high level of privilege too. That'll give him an extra-wide open “attack window” into your system.
